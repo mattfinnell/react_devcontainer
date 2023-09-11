@@ -35,13 +35,12 @@
 
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "bash scripts/generate_github_key.sh",
-  "postAttachCommand": "yarn install && yarn start",
+  "postAttachCommand": "yarn install",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   "features": {
     "ghcr.io/devcontainers-contrib/features/pre-commit:2": {},
-    "ghcr.io/devcontainers/features/git-lfs:1": {},
-    "ghcr.io/devcontainers/features/aws-cli:1": {}
+    "ghcr.io/devcontainers/features/git-lfs:1": {}
   }
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
