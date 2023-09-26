@@ -34,8 +34,8 @@
   },
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "bash scripts/generate_github_key.sh",
-  "postAttachCommand": "yarn install",
+  "postCreateCommand": "bash scripts/create_environment.sh",
+  "postAttachCommand": "bash scripts/attach_environment.sh",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   "features": {

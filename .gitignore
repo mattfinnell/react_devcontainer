@@ -150,4 +150,4 @@ Reference.tsx
 storybook-static/
 
 # End of https://www.toptal.com/developers/gitignore/api/storybookjs
-githubkey
+out
